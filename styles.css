@@ -1,0 +1,45 @@
+body{
+    background-color: #f1f1f1;
+    font-size: 130%;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin: 1%;
+}
+
+h1{
+    text-align: center;
+}
+
+
+#menubar{
+    border: 3px solid black;
+    background-color: #8b8b8b;
+    display: flex;
+    flex-direction: row;
+    margin-left: 1px;
+    margin-right: 1px;
+}
+
+.menubtn{
+    border: 1px solid black;
+    text-align: center;
+    flex: 1;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    font-size: 200%;
+    color: #f1f1f1;
+    text-decoration: solid;
+}
+
+.discordInvite{
+    
+    border: 1px solid #474747;
+    background-color: #474747;
+    color: rgb(206, 204, 231);
+    padding: 1%;
+    
+}
+
+#discordlink{
+    text-decoration: solid;
+    color: rgb(219, 219, 219);
+}
