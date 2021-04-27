@@ -6,14 +6,17 @@ body{
     margin-right: 5%;
 }
 
-.rughlogo{
-    width: 40%;
+.rughlogo img{
+
+    max-width: 400px;
+    flex: 0;
 }
 
 
 .menubar{
     border: 3px solid black;
-    background-color: #8b8b8b;
+    background-color: #f1f1f1;
+    margin-top: 1%;
     display: flex;
     flex-direction: row;
     margin-left: -5%;
@@ -23,15 +26,26 @@ body{
     top: 1%;
 }
 
+.menubtnbar{
+    display: flex;
+    flex: 1;
+    padding: 2%;
+    
+}
+
 .menubtn{
     border: 1px solid black;
+    background-color: #8b8b8b;
     text-align: center;
-    flex: 1;
     padding-top: 5px;
     padding-bottom: 5px;
     font-size: 150%;
     color: #f1f1f1;
     text-decoration: solid;
     height: 80%;
+    margin-top: auto;
+    margin-bottom: auto;
+    flex: 1;
 }
 
+/* ------------------------------------------- Fin du Header ----------------------------*/
