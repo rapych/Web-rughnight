@@ -49,3 +49,41 @@ body{
 }
 
 /* ------------------------------------------- Fin du Header ----------------------------*/
+
+
+.member{
+    list-style: none;
+    border: 1px solid;
+    
+}
+
+.member li{
+    display: inline;
+    font-size: 2em;
+}
+
+.logo{
+    width: 5%;
+    vertical-align: middle;
+}
+
+.twitchimg{
+    width: 5%;
+    vertical-align: middle;
+}
+
+.discordimg{
+    width: 5%;
+    vertical-align: middle;
+}
+
+.discord{
+    text-decoration: solid;
+    color: black;
+}
+.twitch{
+    height:max-content;
+    text-decoration: solid;
+    color: black;
+    border: 5px solid #6441a4ff;
+}
